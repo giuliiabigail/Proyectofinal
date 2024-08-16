@@ -1,0 +1,55 @@
+.footer{
+    position: relative;
+    width: 100%;
+    background: $fondoFooter;
+    min-height: 6.25rem;
+    padding: 1.25rem 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0%;
+    top: 150px;
+    ul{
+        @include flex;
+        margin: .625rem .3125rem;
+        li{
+            list-style: none;
+            a{
+                text-align: center;
+                color:$letrasfooter ;
+                font-size: 2rem;
+                display: inline-block;
+                margin: 0 .625rem;
+                transition: 0,5s;
+                &:hover{
+                    transform: translatey(-0.625rem);
+                }
+            }
+        }
+    }
+}
+.menu{
+    @include flex;
+    margin: .625rem 0;
+}
+.menuElem{
+    list-style: none;
+}
+.menuIcon{
+    color: rgba(0, 0, 0, 0.5);
+    font-size:  1.25rem;
+    display: inline-block;
+    text-decoration: none;
+    margin: .3125rem .625rem;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+.menuIcons:hover{
+    opacity: 1;
+}
+.text{
+    color: rgb(10, 10, 10);
+    font-size: 1.25rem;
+    text-align: center;
+}

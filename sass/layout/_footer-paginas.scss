@@ -1,0 +1,30 @@
+.footerProductos{
+    position: relative;
+    width: 100%;
+    background:$fondoFooter;
+    min-height: 6.25rem;
+    padding: 1.25rem 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0%;
+    top: 350px;
+    ul{
+        @include flex;
+        margin: .625rem .3125rem;
+        li{
+            list-style: none;
+            a{
+                color:$letrasfooter ;
+                font-size: 2rem;
+                display: inline-block;
+                margin: 0 .625rem;
+                transition: 0,5s;
+                &:hover{
+                    transform: translatey(-0.625rem);
+                }
+            }
+        }
+    }
+}

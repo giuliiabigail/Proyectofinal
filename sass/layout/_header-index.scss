@@ -1,0 +1,18 @@
+.bodyIndex{
+    width: 100%;
+    background-image: url(../assets/img/fondoindex.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.logoIndex {
+    display: flex;
+    position: relative ;
+    width: 30.3125rem;
+    top: 10px;
+    left: 465px;
+    min-height: 6.25rem;
+    padding: 1.25rem 3.125rem;
+    justify-content: center;
+    align-items: center;
+}

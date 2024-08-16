@@ -1,0 +1,53 @@
+.tituloNosotros{
+    position: absolute;
+    width: 100%;
+    height: 14.8125rem;
+    top: 330px;
+    font-family: $fuenteTitulos;
+    font-weight: 300;
+    font-size: 5rem;
+    line-height: 5.25rem;
+    text-align: center;
+    background-color: $colorPrincipal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: normal;
+}
+
+.nosotrosInfo{
+    width: 100%;
+    padding: 100px;
+    margin-top: 500px;
+}
+.col{
+    width: 270px;
+    height: 290px;
+    margin: 15px;
+}
+
+
+.quienSomos{
+    color: rgba(0, 0, 0, 0.7);
+}
+.descripcionNosotros{
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    text-align:start;
+}
+.contenedortexto{
+    background-color: rgba(217, 217, 217, 0.3);
+}
+.comunidad{
+    margin-top: 20px;
+    color: rgba(49, 49, 49, 0.684);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    text-align:start;
+}

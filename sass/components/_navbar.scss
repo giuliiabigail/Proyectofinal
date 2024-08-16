@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 10.6875rem;
+    left: 0rem;
+    padding-right: 1.75rem;
+    font-weight: 700;
+    background-color: rgba(113, 114, 116, 0.53);
+    z-index: 100;
+    .navbar{
+        li{
+            display: inline-block;
+            padding: 0 1.125rem;
+            a{
+                color: rgba(0, 0, 0, 0.75);
+                text-decoration: none;
+                width: 11.625rem;
+                height: 2.875rem;
+                left: 22.375rem;
+                top: .875rem;
+                font-family: 'inria';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.5rem;
+                line-height: 2.9375rem;
+                &:hover {
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}

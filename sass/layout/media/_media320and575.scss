@@ -1,0 +1,261 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    .logoIndex{ 
+        width: 5px;
+        top: 5px;
+        left: -10px;
+        padding: 30px;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .logoPaginas{
+        position: relative;
+        top: 25px;
+        padding: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .logoPaginas{ 
+        width: 5px;
+        top: 25px;
+        left:0px;
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+@media (min-width: 320px) and (max-width: 376px) {
+    .frase{
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 60px;
+        grid-row-start: 5;
+        grid-row-end:5;
+    }
+}
+@media (min-width: 320px) and (max-width: 376px) {
+    .descripcion{ 
+        font-weight: 200;
+        font-size: 45px;
+        grid-row-start: 6;
+        grid-row-end:6;
+        line-height: 60px;
+    }
+}
+@media (min-width: 377px) and (max-width: 465px) {
+    .frase{
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 60px;
+        grid-row-start: 4;
+        grid-row-end:4;
+    }
+}
+
+@media (min-width: 377px) and (max-width: 465px) {
+    .descripcion{ 
+        font-weight: 200;
+        font-size: 45px;
+        grid-row-start: 5;
+        grid-row-end:5;
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 466px) and (max-width: 575px) {
+    .frase{
+        font-weight: 100;
+        font-size: 50px;
+        line-height: 60px;
+        grid-row-start: 3;
+        grid-row-end:3;
+    }
+}
+
+@media (min-width: 466px) and (max-width: 575px) {
+    .descripcion{ 
+        font-weight: 200;
+        font-size: 50px;
+        grid-row-start: 4;
+        grid-row-end:4;
+        line-height: 60px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .sectionPrincipal{ 
+        h1{
+            width: 100%;
+            top: 500px;
+            left: 0%;
+            font-size: 40px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .rutinaDiaNoche{
+        margin-top: 300px;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px)  {
+    .dia{
+        font-size: 30px;
+        font-weight: 100;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px)  {
+    .dia{
+        row-gap: 5px;
+    }}
+@media (min-width: 320px) and (max-width: 575px)  {
+    .noche{
+        font-size: 30px;
+        font-weight: 100;
+        }
+    }
+@media (min-width: 320px) and (max-width: 575px) {
+    .noche{
+        row-gap: 2px;}
+    }
+@media (min-width: 320px) and (max-width: 575px) {
+    .productoSkin{
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px)  {
+    .descripcionSkin{
+            font-size: 10px;
+            font-weight: 100}
+    }
+
+    @media (min-width: 320px) and (max-width: 575px)  {
+    .imgRutina{
+            width: 100%;
+            height: 20vh;
+            margin-top: 100px;
+    }
+    }
+    @media (min-width: 320px) and (max-width: 575px)  {
+    .tituloRutina{
+        h1{font-size: 10px;
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 575px)  {
+    .iframe{
+    width: 100%;   
+    height: 20vh;
+    top: 120px;
+}
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .tituloNosotros{
+        font-size: 60px;
+        top: 500px;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.71) 0%, rgba(102, 102, 102, 0.71) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        mix-blend-mode: normal;
+    }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .nosotrosInfo{
+        padding: 40px;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 575px) {
+.col{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+}
+@media (min-width: 320px) and (max-width: 575px){
+.descripcionNosotros{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+.comunidad{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .tituloContacto{
+        font-size: 50px;
+        margin-top: 300px;
+    }
+}
+
+    @media (min-width: 320px) and (max-width: 575px){
+    .contacto{
+        font-size: 8px;
+        line-height: 25px;
+        grid-row-start: 3;
+        margin-top: 20px;
+        }
+    }
+
+
+@media (min-width: 320px) and (max-width: 575px){
+    .inputGroup{
+        font-size: 11px;
+        line-height: 30px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        margin-top: 50px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .footer{
+        top: 100px;
+        ul{
+            li{
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+    .text{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .footerProductos{
+        ul{
+            li{
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 575px){
+    .text{
+        font-size: 10px;
+    }
+}
